@@ -234,7 +234,7 @@ with st.sidebar:
     
     st.markdown(f"""
     <div style="font-size: 13px; color: {text_color}; line-height: 1.6;">
-        <p><b>Statutory Strategy Documents:</b></p>
+        <p><b>FSDS Documents:</b></p>
         <ul style="padding-left: 20px;">
             <li><a href="https://www.canada.ca/en/environment-climate-change/corporate/transparency/consultations/share-your-throughts-draft-2026-2029-federal-sustainable-development-strategy/draft-strategy.html" target="_blank">Consultation Draft 2026–2029</a></li>
             <li><a href="https://www.canada.ca/en/environment-climate-change/services/climate-change/federal-sustainable-development-strategy/strategies-reports/2025-progress-report.html" target="_blank">2025 FSDS Progress Report</a></li>
