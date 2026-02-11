@@ -208,8 +208,8 @@ def create_chart(min_strategies, theme):
             'font': {'size': 24, 'color': text_color}
         },
         font=dict(size=12, color=text_color),
-        plot_bgcolor=bg_color,
-        paper_bgcolor=bg_color,
+        plot_bgcolor=bg_color,   # <--- Make sure this is bg_color
+        paper_bgcolor=bg_color,  # <--- Make sure this is bg_color
         height=chart_height,
         margin=dict(l=20, r=20, t=80, b=80)
     )
