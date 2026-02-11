@@ -231,15 +231,22 @@ st.title("Draft 2026-2029 FSDS Governance Architecture")
 
 text_color = '#111111' if theme == 'light' else '#ffffff'
 
-# --- HEADER BLOCK ---
+## --- HEADER BLOCK ---
 st.markdown(f"""
 <h3 style="text-align: center; color: {text_color};">
     Governance Architecture & Framework Alignment
 </h3>
-<p style="text-align: center; font-size: 14px; color: {text_color}; margin-bottom: 25px;">
-    <i>Mapping implementation strategy distribution from responsible federal organizations 
-    through FSDS goals to Quality of Life Framework domains</i>
+<p style="text-align: center; font-size: 14px; color: {text_color};">
+    <i>Visualizing the distribution of implementation strategies across federal organizations</i>
 </p>
+<div style="text-align: left; color: {text_color}; margin-top: 20px; margin-bottom: 20px; line-height: 1.6;">
+    <p>This interactive dashboard visualizes the <b>whole-of-government framework</b> for sustainable development as outlined in the 
+    <i>Consultation Draft 2026–2029 Federal Sustainable Development Strategy</i> (Environment and Climate Change Canada, 2026). 
+    Under the <b>Federal Sustainable Development Act</b>, this strategy reflects the collective efforts of 
+    <b>48 federal organizations</b> to advance shared priorities. The tool tracks how 
+    departmental commitments flow through specific <b>FSDS goals</b> to support outcomes within Canada's 
+    <b>Quality of Life Framework</b>.</p>
+</div>
 """, unsafe_allow_html=True)
 # -----------------------------
 
