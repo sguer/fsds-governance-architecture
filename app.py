@@ -1,8 +1,8 @@
 """
 2026-2029 FSDS Governance Architecture (Dynamic Data Version)
 =============================================================
-Streamlit application that visualizes REAL data from fsds_data.json.
-Now includes full-text hover and tabular data views.
+Streamlit application that visualizes data from fsds_data.json.
+Includes full-text hover and tabular data views.
 """
 
 import streamlit as st
