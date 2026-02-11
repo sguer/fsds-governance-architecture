@@ -200,18 +200,13 @@ def create_chart(min_strategies, theme):
     chart_height = max(800, org_count * 40)
 
     fig.update_layout(
-        title={
-            'text': "<b>Draft 2026-2029 FSDS Governance Architecture</b>",
-            'y': 0.95,
-            'x': 0.5,
-            'xanchor': 'center',
-            'font': {'size': 24, 'color': text_color}
-        },
+
         font=dict(size=12, color=text_color),
-        plot_bgcolor=bg_color,   # <--- Make sure this is bg_color
-        paper_bgcolor=bg_color,  # <--- Make sure this is bg_color
+        plot_bgcolor=bg_color,
+        paper_bgcolor=bg_color,
         height=chart_height,
-        margin=dict(l=20, r=20, t=80, b=80)
+        # Reduce top margin since title is gone (t=40 is plenty)
+        margin=dict(l=20, r=20, t=40, b=80) 
     )
     
     return fig, org_count
@@ -233,6 +228,24 @@ with st.sidebar:
 
 # Main Page
 st.title("Draft 2026-2029 FSDS Governance Architecture")
+
+text_color = '#111111' if theme == 'light' else '#ffffff'
+
+# --- HEADER BLOCK ---
+st.markdown(f"""
+<h3 style="text-align: center; color: {text_color};">
+    Governance Architecture & Framework Alignment
+</h3>
+<p style="text-align: center; font-size: 14px; color: {text_color}; margin-bottom: 25px;">
+    <i>Mapping implementation strategy distribution from responsible federal organizations 
+    through FSDS goals to Quality of Life Framework domains</i>
+</p>
+""", unsafe_allow_html=True)
+# -----------------------------
+
+if data:
+    chart, org_count = create_chart(min_strat_filter, theme)
+    st.plotly_chart(chart, use_container_width=True)
 
 if data:
     # CREATE TABS
