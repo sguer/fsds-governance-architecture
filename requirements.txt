@@ -1,0 +1,17 @@
+# FSDS Governance Architecture Dashboard
+# Python package requirements
+
+# Core visualization libraries
+streamlit>=1.28.0
+plotly>=5.17.0
+kaleido>=0.2.1
+
+# Image processing
+pillow>=9.0.0
+
+# Data handling (optional but recommended)
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Utilities
+python-dateutil>=2.8.0

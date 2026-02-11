@@ -1,0 +1,1053 @@
+{
+  "metadata": {
+    "source": "Government of Canada (2026)",
+    "document": "Draft 2026-2029 Federal Sustainable Development Strategy",
+    "annexes": [
+      2,
+      3
+    ],
+    "extraction_date": "/root"
+  },
+  "statistics": {
+    "total_organizations": 48,
+    "total_goals": 17,
+    "total_qol_domains": 5,
+    "total_strategies": 250
+  },
+  "organizations": {
+    "AAFC": {
+      "code": "AAFC",
+      "name": "Agriculture and Agri-Food Canada",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [
+        "2.2.1.1",
+        "2.2.1.2"
+      ],
+      "chapter3_strategies": [
+        "3.1.1.1"
+      ]
+    },
+    "ACOA": {
+      "code": "ACOA",
+      "name": "Atlantic Canada Opportunities Agency",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [
+        "2.1.2.1"
+      ],
+      "chapter3_strategies": []
+    },
+    "CBSA": {
+      "code": "CBSA",
+      "name": "Canada Border Services Agency",
+      "chapter1_strategies": [
+        "1.7.1.2"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.1"
+      ],
+      "chapter3_strategies": [
+        "3.3.2.3"
+      ]
+    },
+    "CED": {
+      "code": "CED",
+      "name": "Canada Economic Development for Quebec Regions",
+      "chapter1_strategies": [
+        "1.6.1.1"
+      ],
+      "chapter2_strategies": [
+        "2.1.2.1"
+      ],
+      "chapter3_strategies": []
+    },
+    "CER": {
+      "code": "CER",
+      "name": "Canada Energy Regulator",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [],
+      "chapter3_strategies": [
+        "3.3.2.2"
+      ]
+    },
+    "CRA": {
+      "code": "CRA",
+      "name": "Canada Revenue Agency",
+      "chapter1_strategies": [
+        "1.3.1.1"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.4",
+        "2.1.2.1",
+        "2.1.2.2",
+        "2.1.2.3"
+      ],
+      "chapter3_strategies": []
+    },
+    "CSPS": {
+      "code": "CSPS",
+      "name": "Canada School of Public Service",
+      "chapter1_strategies": [
+        "1.1.1.4",
+        "1.1.2.1",
+        "1.4.1.2"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    },
+    "CWA": {
+      "code": "CWA",
+      "name": "Canada Water Agency",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [],
+      "chapter3_strategies": [
+        "3.4.1.1",
+        "3.4.1.2"
+      ]
+    },
+    "CFIA": {
+      "code": "CFIA",
+      "name": "Canadian Food Inspection Agency",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [
+        "2.2.1.1",
+        "2.2.1.2"
+      ],
+      "chapter3_strategies": [
+        "3.3.2.3"
+      ]
+    },
+    "PCH": {
+      "code": "PCH",
+      "name": "Canadian Heritage",
+      "chapter1_strategies": [
+        "1.1.1.3",
+        "1.2.1.1",
+        "1.2.1.2",
+        "1.2.1.3",
+        "1.2.2.1",
+        "1.2.2.2",
+        "1.2.2.3",
+        "1.4.1.1"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    },
+    "CHRC": {
+      "code": "CHRC",
+      "name": "Canadian Human Righits Commission",
+      "chapter1_strategies": [
+        "1.3.1.1",
+        "1.4.1.1",
+        "1.4.2.2"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    },
+    "CNSC": {
+      "code": "CNSC",
+      "name": "Canadian Nuclear Safety Commission",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [],
+      "chapter3_strategies": [
+        "3.4.1.1"
+      ]
+    },
+    "CRTC": {
+      "code": "CRTC",
+      "name": "Canadian RadioTelevision and Telecommunications Commission",
+      "chapter1_strategies": [
+        "1.1.1.4",
+        "1.2.2.3",
+        "1.4.1.1"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.3"
+      ],
+      "chapter3_strategies": []
+    },
+    "CSA": {
+      "code": "CSA",
+      "name": "Canadian Space Agency",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [
+        "2.1.1.4"
+      ],
+      "chapter3_strategies": [
+        "3.3.1.2",
+        "3.4.3.1"
+      ]
+    },
+    "CSC": {
+      "code": "CSC",
+      "name": "Correctional Service Canada",
+      "chapter1_strategies": [
+        "1.1.2.1",
+        "1.5.1.2"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    },
+    "CIRNAC": {
+      "code": "CIRNAC",
+      "name": "Crown-Indigenous Relations and Northern Affairs Canada",
+      "chapter1_strategies": [
+        "1.3.1.3",
+        "1.3.1.4",
+        "1.5.1.2",
+        "1.6.1.1"
+      ],
+      "chapter2_strategies": [
+        "2.3.1.5"
+      ],
+      "chapter3_strategies": [
+        "3.1.1.2"
+      ]
+    },
+    "ESDC": {
+      "code": "ESDC",
+      "name": "Employment and Social Development Canada",
+      "chapter1_strategies": [
+        "1.1.1.1",
+        "1.2.1.1",
+        "1.3.1.1",
+        "1.4.1.1",
+        "1.4.2.1",
+        "1.4.2.3",
+        "1.6.1.1"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.6"
+      ],
+      "chapter3_strategies": []
+    },
+    "ECCC": {
+      "code": "ECCC",
+      "name": "Environment and Climate Change Canada",
+      "chapter1_strategies": [
+        "1.4.1.4"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": [
+        "3.1.1.1",
+        "3.2.1.1",
+        "3.2.1.2",
+        "3.3.1.1",
+        "3.3.1.2",
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.2.3",
+        "3.4.1.2",
+        "3.4.2.1",
+        "3.4.3.1",
+        "3.5.1.1",
+        "3.5.1.2"
+      ]
+    },
+    "DFO": {
+      "code": "DFO",
+      "name": "Fisheries and Oceans Canada",
+      "chapter1_strategies": [
+        "1.1.1.4",
+        "1.3.1.4",
+        "1.6.1.1"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.3",
+        "2.1.1.4",
+        "2.1.2.1"
+      ],
+      "chapter3_strategies": [
+        "3.2.1.3",
+        "3.3.1.1",
+        "3.3.1.2",
+        "3.3.2.2",
+        "3.3.2.3",
+        "3.4.1.1",
+        "3.5.1.1"
+      ]
+    },
+    "GAC": {
+      "code": "GAC",
+      "name": "Global Affairs Canada",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [
+        "2.1.1.1",
+        "2.2.1.2"
+      ],
+      "chapter3_strategies": []
+    },
+    "HC": {
+      "code": "HC",
+      "name": "Health Canada",
+      "chapter1_strategies": [
+        "1.3.1.2",
+        "1.7.1.1",
+        "1.7.1.2"
+      ],
+      "chapter2_strategies": [
+        "2.2.1.1"
+      ],
+      "chapter3_strategies": [
+        "3.2.1.2",
+        "3.2.1.3",
+        "3.4.3.1"
+      ]
+    },
+    "HICC": {
+      "code": "HICC",
+      "name": "Communities Canada",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [
+        "2.3.1.6",
+        "2.4.1.1",
+        "2.4.1.3",
+        "2.5.1.1",
+        "2.5.1.2",
+        "2.5.1.3"
+      ],
+      "chapter3_strategies": []
+    },
+    "IRCC": {
+      "code": "IRCC",
+      "name": "Immigration, Refugees and Citizenship Canada",
+      "chapter1_strategies": [
+        "1.2.1.1"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.1"
+      ],
+      "chapter3_strategies": []
+    },
+    "IAAC": {
+      "code": "IAAC",
+      "name": "Impact Assessment Agency of Canada",
+      "chapter1_strategies": [
+        "1.1.1.4"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.5",
+        "2.1.2.1"
+      ],
+      "chapter3_strategies": []
+    },
+    "ISC": {
+      "code": "ISC",
+      "name": "Indigenous Services Canada",
+      "chapter1_strategies": [
+        "1.2.1.3",
+        "1.3.1.1",
+        "1.3.1.2",
+        "1.3.1.3",
+        "1.3.1.4",
+        "1.5.1.1",
+        "1.5.1.2",
+        "1.6.1.1",
+        "1.6.1.2",
+        "1.6.1.3",
+        "1.6.1.4"
+      ],
+      "chapter2_strategies": [
+        "2.3.1.4",
+        "2.3.1.5"
+      ],
+      "chapter3_strategies": [
+        "3.4.2.1",
+        "3.4.2.2"
+      ]
+    },
+    "ISED": {
+      "code": "ISED",
+      "name": "Innovation, Science and Economic Development Canada",
+      "chapter1_strategies": [
+        "1.1.1.4",
+        "1.2.2.1",
+        "1.4.2.1",
+        "1.6.1.1"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.1",
+        "2.1.1.2",
+        "2.1.1.3",
+        "2.1.1.4",
+        "2.1.1.5",
+        "2.1.2.1",
+        "2.1.2.2",
+        "2.1.2.3",
+        "2.3.1.1",
+        "2.3.1.3",
+        "2.5.2.1"
+      ],
+      "chapter3_strategies": [
+        "3.1.1.1",
+        "3.5.1.2"
+      ]
+    },
+    "IIC": {
+      "code": "IIC",
+      "name": "Invest in Canada",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [
+        "2.1.2.1"
+      ],
+      "chapter3_strategies": []
+    },
+    "JCCBI": {
+      "code": "JCCBI",
+      "name": "Jacques Cartier and Champlain Bridges Incorporated",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [],
+      "chapter3_strategies": [
+        "3.3.2.2"
+      ]
+    },
+    "LAC": {
+      "code": "LAC",
+      "name": "Library and Archives Canada",
+      "chapter1_strategies": [
+        "1.2.1.1",
+        "1.2.1.2",
+        "1.2.2.1"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    },
+    "NCC": {
+      "code": "NCC",
+      "name": "National Capital Commission",
+      "chapter1_strategies": [
+        "1.2.1.2",
+        "1.2.2.1"
+      ],
+      "chapter2_strategies": [
+        "2.5.1.1",
+        "2.5.1.2",
+        "2.5.1.3"
+      ],
+      "chapter3_strategies": [
+        "3.3.1.3",
+        "3.3.2.2",
+        "3.3.2.3"
+      ]
+    },
+    "DND": {
+      "code": "DND",
+      "name": "National Defence",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [],
+      "chapter3_strategies": [
+        "3.3.1.1"
+      ]
+    },
+    "NFB": {
+      "code": "NFB",
+      "name": "National Film Board",
+      "chapter1_strategies": [
+        "1.2.1.1",
+        "1.2.1.2",
+        "1.2.2.3"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    },
+    "NRC": {
+      "code": "NRC",
+      "name": "National Research Council Canada",
+      "chapter1_strategies": [
+        "1.1.1.4",
+        "1.3.1.4"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.2",
+        "2.1.1.4",
+        "2.1.2.1",
+        "2.1.2.2",
+        "2.1.2.3",
+        "2.3.1.1",
+        "2.3.1.3",
+        "2.4.1.2",
+        "2.4.1.3",
+        "2.5.2.1",
+        "2.5.2.2"
+      ],
+      "chapter3_strategies": [
+        "3.1.1.1",
+        "3.3.1.1",
+        "3.3.1.2",
+        "3.4.3.1",
+        "3.5.1.2"
+      ]
+    },
+    "NSERC": {
+      "code": "NSERC",
+      "name": "Natural Sciences and Engineering Research Canada",
+      "chapter1_strategies": [
+        "1.4.2.1",
+        "1.6.1.4"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.4"
+      ],
+      "chapter3_strategies": []
+    },
+    "PC": {
+      "code": "PC",
+      "name": "Parks Canada",
+      "chapter1_strategies": [
+        "1.2.1.2",
+        "1.2.2.1",
+        "1.4.1.1"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": [
+        "3.3.1.1",
+        "3.3.1.2",
+        "3.3.1.3",
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.2.3"
+      ]
+    },
+    "POLAR": {
+      "code": "POLAR",
+      "name": "Polar Knowledge Canada",
+      "chapter1_strategies": [
+        "1.6.1.4"
+      ],
+      "chapter2_strategies": [
+        "2.3.1.3"
+      ],
+      "chapter3_strategies": [
+        "3.2.1.3"
+      ]
+    },
+    "PCO": {
+      "code": "PCO",
+      "name": "Privy Council Office",
+      "chapter1_strategies": [
+        "1.1.1.3",
+        "1.4.1.2"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    },
+    "PHAC": {
+      "code": "PHAC",
+      "name": "Public Health Agency of Canada",
+      "chapter1_strategies": [
+        "1.1.1.4",
+        "1.5.1.1",
+        "1.7.1.1"
+      ],
+      "chapter2_strategies": [
+        "2.5.1.2"
+      ],
+      "chapter3_strategies": []
+    },
+    "PS": {
+      "code": "PS",
+      "name": "Public Safety Canada",
+      "chapter1_strategies": [
+        "1.1.1.3",
+        "1.1.2.1",
+        "1.5.1.2",
+        "1.5.1.3",
+        "1.7.1.2"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": [
+        "3.2.1.2"
+      ]
+    },
+    "PSC": {
+      "code": "PSC",
+      "name": "Public Service Commission of Canada",
+      "chapter1_strategies": [
+        "1.4.1.2"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    },
+    "PSPC": {
+      "code": "PSPC",
+      "name": "Public Services and Procurement Canada",
+      "chapter1_strategies": [
+        "1.1.1.1",
+        "1.6.1.1",
+        "1.7.1.2"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.2",
+        "2.1.2.1",
+        "2.4.1.1",
+        "2.4.1.3"
+      ],
+      "chapter3_strategies": [
+        "3.1.1.1"
+      ]
+    },
+    "RCMP": {
+      "code": "RCMP",
+      "name": "Royal Canadian Mounted Police",
+      "chapter1_strategies": [
+        "1.1.1.3",
+        "1.1.1.4",
+        "1.1.2.3",
+        "1.1.2.4",
+        "1.4.1.1",
+        "1.4.1.3",
+        "1.5.1.1",
+        "1.5.1.2",
+        "1.5.1.3",
+        "1.7.1.1",
+        "1.7.1.2"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    },
+    "SSC": {
+      "code": "SSC",
+      "name": "Shared Services Canada",
+      "chapter1_strategies": [
+        "1.1.1.1",
+        "1.1.1.2",
+        "1.6.1.1"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    },
+    "SSHRC": {
+      "code": "SSHRC",
+      "name": "Social Sciences and Humanities Research Council of Canada",
+      "chapter1_strategies": [
+        "1.2.2.2",
+        "1.4.2.1",
+        "1.6.1.4"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.4"
+      ],
+      "chapter3_strategies": [
+        "3.2.1.3"
+      ]
+    },
+    "TC": {
+      "code": "TC",
+      "name": "Transport Canada",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [
+        "2.1.1.3",
+        "2.1.1.4",
+        "2.5.1.2",
+        "2.5.2.1"
+      ],
+      "chapter3_strategies": [
+        "3.1.1.1",
+        "3.3.1.2",
+        "3.3.2.3",
+        "3.4.3.1"
+      ]
+    },
+    "TBS": {
+      "code": "TBS",
+      "name": "Treasury Board of Canada Secretariat",
+      "chapter1_strategies": [
+        "1.1.1.1",
+        "1.1.1.2",
+        "1.1.1.3",
+        "1.4.2.1",
+        "1.4.2.2"
+      ],
+      "chapter2_strategies": [
+        "2.1.1.5"
+      ],
+      "chapter3_strategies": [
+        "3.1.1.3",
+        "3.1.2.1",
+        "3.1.2.2",
+        "3.1.2.3",
+        "3.2.2.1"
+      ]
+    },
+    "VAC": {
+      "code": "VAC",
+      "name": "Veterans Affairs Canada",
+      "chapter1_strategies": [],
+      "chapter2_strategies": [],
+      "chapter3_strategies": [
+        "3.5.1.1"
+      ]
+    },
+    "WAGE": {
+      "code": "WAGE",
+      "name": "Women and Gender Equality Canada",
+      "chapter1_strategies": [
+        "1.5.1.1",
+        "1.5.1.2",
+        "1.5.1.3"
+      ],
+      "chapter2_strategies": [],
+      "chapter3_strategies": []
+    }
+  },
+  "goals": {
+    "1.1": {
+      "code": "1.1",
+      "title": "Improve trust in government",
+      "chapter": 1,
+      "qol_domains": [
+        "good_governance"
+      ]
+    },
+    "1.2": {
+      "code": "1.2",
+      "title": "Reinforce Canadian culture and identity",
+      "chapter": 1,
+      "qol_domains": [
+        "society"
+      ]
+    },
+    "1.3": {
+      "code": "1.3",
+      "title": "Reduce poverty in Canada",
+      "chapter": 1,
+      "qol_domains": [
+        "prosperity",
+        "health"
+      ]
+    },
+    "1.4": {
+      "code": "1.4",
+      "title": "Reduce systemic racism and discrimination",
+      "chapter": 1,
+      "qol_domains": [
+        "good_governance"
+      ]
+    },
+    "1.5": {
+      "code": "1.5",
+      "title": "Reduce gender-based violence",
+      "chapter": 1,
+      "qol_domains": [
+        "good_governance"
+      ]
+    },
+    "1.6": {
+      "code": "1.6",
+      "title": "Improve Indigenous Peoples' prosperity",
+      "chapter": 1,
+      "qol_domains": [
+        "prosperity"
+      ]
+    },
+    "1.7": {
+      "code": "1.7",
+      "title": "Address the Illegal Drug Crisis",
+      "chapter": 1,
+      "qol_domains": [
+        "good_governance",
+        "health"
+      ]
+    },
+    "2.1": {
+      "code": "2.1",
+      "title": "Build a productive and low-carbon economy",
+      "chapter": 2,
+      "qol_domains": [
+        "prosperity"
+      ]
+    },
+    "2.2": {
+      "code": "2.2",
+      "title": "Strengthen the resilience and sustainability of Canadian agriculture",
+      "chapter": 2,
+      "qol_domains": [
+        "prosperity",
+        "society"
+      ]
+    },
+    "2.3": {
+      "code": "2.3",
+      "title": "Increase the number of households in acceptable housing",
+      "chapter": 2,
+      "qol_domains": [
+        "prosperity",
+        "health"
+      ]
+    },
+    "2.4": {
+      "code": "2.4",
+      "title": "Promote energy efficiency",
+      "chapter": 2,
+      "qol_domains": [
+        "environment"
+      ]
+    },
+    "2.5": {
+      "code": "2.5",
+      "title": "Expand access to sustainable transportation",
+      "chapter": 2,
+      "qol_domains": [
+        "environment",
+        "health"
+      ]
+    },
+    "3.1": {
+      "code": "3.1",
+      "title": "Reduce greenhouse gas emissions",
+      "chapter": 3,
+      "qol_domains": [
+        "environment",
+        "health"
+      ]
+    },
+    "3.2": {
+      "code": "3.2",
+      "title": "Support climate adaptation",
+      "chapter": 3,
+      "qol_domains": [
+        "environment",
+        "health"
+      ]
+    },
+    "3.3": {
+      "code": "3.3",
+      "title": "Protect and restore Canada's ecosystems and biodiversity",
+      "chapter": 3,
+      "qol_domains": [
+        "environment"
+      ]
+    },
+    "3.4": {
+      "code": "3.4",
+      "title": "Improve water and air quality",
+      "chapter": 3,
+      "qol_domains": [
+        "environment",
+        "health"
+      ]
+    },
+    "3.5": {
+      "code": "3.5",
+      "title": "Reduce and manage waste",
+      "chapter": 3,
+      "qol_domains": [
+        "environment"
+      ]
+    }
+  },
+  "qol_domains": {
+    "good_governance": {
+      "code": "good_governance",
+      "name": "Good Governance",
+      "description": "Trust, transparency, and democratic institutions"
+    },
+    "prosperity": {
+      "code": "prosperity",
+      "name": "Prosperity",
+      "description": "Economic wellbeing and opportunity"
+    },
+    "environment": {
+      "code": "environment",
+      "name": "Environment",
+      "description": "Sustainable and healthy ecosystems"
+    },
+    "health": {
+      "code": "health",
+      "name": "Health",
+      "description": "Physical and mental wellbeing"
+    },
+    "society": {
+      "code": "society",
+      "name": "Society",
+      "description": "Culture, identity, and social cohesion"
+    }
+  },
+  "strategy_mappings": {
+    "2.2": [
+      "AAFC",
+      "CFIA",
+      "GAC",
+      "HC"
+    ],
+    "3.1": [
+      "AAFC",
+      "CIRNAC",
+      "ECCC",
+      "ISED",
+      "NRC",
+      "PSPC",
+      "TC",
+      "TBS"
+    ],
+    "2.1": [
+      "ACOA",
+      "CBSA",
+      "CED",
+      "CRA",
+      "CRTC",
+      "CSA",
+      "ESDC",
+      "DFO",
+      "GAC",
+      "IRCC",
+      "IAAC",
+      "ISED",
+      "IIC",
+      "NRC",
+      "NSERC",
+      "PSPC",
+      "SSHRC",
+      "TC",
+      "TBS"
+    ],
+    "1.7": [
+      "CBSA",
+      "HC",
+      "PHAC",
+      "PS",
+      "PSPC",
+      "RCMP"
+    ],
+    "3.3": [
+      "CBSA",
+      "CER",
+      "CFIA",
+      "CSA",
+      "ECCC",
+      "DFO",
+      "JCCBI",
+      "NCC",
+      "DND",
+      "NRC",
+      "PC",
+      "TC"
+    ],
+    "1.6": [
+      "CED",
+      "CIRNAC",
+      "ESDC",
+      "DFO",
+      "ISC",
+      "ISED",
+      "NSERC",
+      "POLAR",
+      "PSPC",
+      "SSC",
+      "SSHRC"
+    ],
+    "1.3": [
+      "CRA",
+      "CHRC",
+      "CIRNAC",
+      "ESDC",
+      "DFO",
+      "HC",
+      "ISC",
+      "NRC"
+    ],
+    "1.1": [
+      "CSPS",
+      "PCH",
+      "CRTC",
+      "CSC",
+      "ESDC",
+      "DFO",
+      "IAAC",
+      "ISED",
+      "NRC",
+      "PCO",
+      "PHAC",
+      "PS",
+      "PSPC",
+      "RCMP",
+      "SSC",
+      "TBS"
+    ],
+    "1.4": [
+      "CSPS",
+      "PCH",
+      "CHRC",
+      "CRTC",
+      "ESDC",
+      "ECCC",
+      "ISED",
+      "NSERC",
+      "PC",
+      "PCO",
+      "PSC",
+      "RCMP",
+      "SSHRC",
+      "TBS"
+    ],
+    "3.4": [
+      "CWA",
+      "CNSC",
+      "CSA",
+      "ECCC",
+      "DFO",
+      "HC",
+      "ISC",
+      "NRC",
+      "TC"
+    ],
+    "1.2": [
+      "PCH",
+      "CRTC",
+      "ESDC",
+      "IRCC",
+      "ISC",
+      "ISED",
+      "LAC",
+      "NCC",
+      "NFB",
+      "PC",
+      "SSHRC"
+    ],
+    "1.5": [
+      "CSC",
+      "CIRNAC",
+      "ISC",
+      "PHAC",
+      "PS",
+      "RCMP",
+      "WAGE"
+    ],
+    "2.3": [
+      "CIRNAC",
+      "HICC",
+      "ISC",
+      "ISED",
+      "NRC",
+      "POLAR"
+    ],
+    "3.2": [
+      "ECCC",
+      "DFO",
+      "HC",
+      "POLAR",
+      "PS",
+      "SSHRC",
+      "TBS"
+    ],
+    "3.5": [
+      "ECCC",
+      "DFO",
+      "ISED",
+      "NRC",
+      "VAC"
+    ],
+    "2.4": [
+      "HICC",
+      "NRC",
+      "PSPC"
+    ],
+    "2.5": [
+      "HICC",
+      "ISED",
+      "NCC",
+      "NRC",
+      "PHAC",
+      "TC"
+    ]
+  }
+}
