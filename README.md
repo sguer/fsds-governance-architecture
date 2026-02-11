@@ -388,10 +388,23 @@ If you use this visualization in academic work, please cite:
 
 ## Future Roadmap
 
-- [ ] Multi-language support (French/English)
-- [ ] Export to PDF with full formatting
-- [ ] Advanced filtering and search
-- [ ] Timeline animation showing strategy evolution
+- [ ] **Federal Sustainable Development Act (S.C. 2008, c. 33)**: Visual mapping to the 7 Principles of the *Federal Sustainable Development Act*:
+    - *Intergenerational equity*
+    - *Openness and transparency*
+    - *Involving Indigenous Peoples*
+    - *Collaboration*
+    - *Results and delivery approach*
+    - *Evolving concept of sustainable development*
+    - *Efficient use of resources*
+- [ ] **Environmental Justice Alignment**: Integrate the upcoming *National Strategy* required by the *National Strategy Respecting Environmental Racism and Environmental Justice Act* (S.C. 2024, c. 11).
+    *Target Date:* **Summer 2026** (aligned with the statutory deadline to table and publish the strategy).
+    *Current alignment focuses on the consultation pillars:*
+    - *Foundation 2*: Assessing and preventing environmental racism
+    - *Foundation 3*: Links between race, socio-economic status, and environmental risk
+    - *Foundation 4*: Indigenous environmental justice
+- [ ] **Multi-language support**: Toggle between English and French
+- [ ] **Advanced Filtering**: Search by specific target (e.g., "1.1.1") or keyword
+- [ ] **Export to PDF**: Generate policy-ready briefs with full formatting
 - [ ] Mobile-optimized responsive design
 - [ ] Dark mode improvements
 - [ ] API endpoint for programmatic access
