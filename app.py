@@ -243,9 +243,6 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 # -----------------------------
 
-if data:
-    chart, org_count = create_chart(min_strat_filter, theme)
-    st.plotly_chart(chart, use_container_width=True)
 
 if data:
     # CREATE TABS
