@@ -199,27 +199,19 @@ def create_chart(min_strategies, theme):
     
     chart_height = max(800, org_count * 40)
 
-    # Update layout
     fig.update_layout(
         title={
-            'text': (
-                "<b>Draft 2026-2029 FSDS: Governance Architecture & Framework Alignment</b><br>"
-                "<sub style='font-size: 12px;'>Mapping implementation strategy distribution from responsible federal organizations "
-                "through FSDS goals to Quality of Life Framework domains</sub>"
-            ),
-            'y': 0.95,  # Pins title to top
+            'text': "<b>Draft 2026-2029 FSDS Governance Architecture</b>",
+            'y': 0.95,
             'x': 0.5,
             'xanchor': 'center',
-            'yanchor': 'top',  # Ensures title grows downwards
-            'automargin': True, # <--- THE MAGIC FIX: Pushes chart down if title gets taller
-            'font': {'size': 16, 'color': '#333' if theme == 'light' else '#ddd'}
+            'font': {'size': 24, 'color': text_color}
         },
-        font=dict(size=10, family='Arial', color='#333' if theme == 'light' else '#ddd'),
-        plot_bgcolor=bg_colour,
-        paper_bgcolor=bg_colour,
-        height=750,
-        # Increased top margin (t) to 140 to give the subtitle breathing room
-        margin=dict(b=120, t=140, l=50, r=50) 
+        font=dict(size=12, color=text_color),
+        plot_bgcolor=bg_color,
+        paper_bgcolor=bg_color,
+        height=chart_height,
+        margin=dict(l=20, r=20, t=80, b=80)
     )
     
     return fig, org_count
