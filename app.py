@@ -226,7 +226,7 @@ with st.sidebar:
     st.info(f"Showing organizations with {min_strat_filter}+ strategies.")
 
 # Main Page
-st.title("Draft 2026-2029 FSDS Governance Architecture")
+st.title("Consultation Draft 2026-2029 FSDS")
 
 text_color = '#111111' if theme == 'light' else '#ffffff'
 
