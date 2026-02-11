@@ -216,6 +216,7 @@ def create_chart(min_strategies, theme):
 with st.sidebar:
     st.title("Configuration")
     theme = st.radio("Theme", ["Light", "Dark"], index=0).lower()
+    
     st.divider()
     st.subheader("Data Filters")
     min_strat_filter = st.slider(
@@ -224,6 +225,32 @@ with st.sidebar:
         help="Filter out organizations with fewer implementation strategies."
     )
     st.info(f"Showing organizations with {min_strat_filter}+ strategies.")
+    
+    # --- OFFICIAL RESOURCES & LINKS ---
+    st.divider()
+    st.subheader("Official Resources")
+    
+    text_color = '#111111' if theme == 'light' else '#ffffff'
+    
+    st.markdown(f"""
+    <div style="font-size: 13px; color: {text_color}; line-height: 1.6;">
+        <p><b>Statutory Strategy Documents:</b></p>
+        <ul style="padding-left: 20px;">
+            <li><a href="https://www.canada.ca/en/environment-climate-change/corporate/transparency/consultations/share-your-throughts-draft-2026-2029-federal-sustainable-development-strategy/draft-strategy.html" target="_blank">Consultation Draft 2026–2029</a></li>
+            <li><a href="https://www.canada.ca/en/environment-climate-change/services/climate-change/federal-sustainable-development-strategy/strategies-reports/2025-progress-report.html" target="_blank">2025 FSDS Progress Report</a></li>
+        </ul>
+        <p><b>Get Involved:</b></p>
+        <ul style="padding-left: 20px;">
+            <li><a href="https://www.canada.ca/en/environment-climate-change/corporate/transparency/consultations/share-your-throughts-draft-2026-2029-federal-sustainable-development-strategy.html" target="_blank">Consultation Process Details</a></li>
+        </ul>
+        <div style="background-color: rgba(139, 111, 71, 0.1); padding: 10px; border-radius: 5px; border-left: 3px solid #8B6F47; margin-top: 15px;">
+            <p style="font-size: 12px; margin-bottom: 0;">
+                <b>Consultation Deadline:</b><br>
+                May 12, 2026
+            </p>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 # Main Page
 st.title("Consultation Draft 2026-2029 FSDS")
