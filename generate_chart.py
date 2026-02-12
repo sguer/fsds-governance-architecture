@@ -4,8 +4,8 @@ FSDS Governance Architecture Chart Generator
 This script generates a Sankey diagram visualizing the governance architecture 
 and framework alignment for the 2026-2029 Draft Federal Sustainable Development Strategy (FSDS).
 
-Author: Open Source
-License: GNU AGPLv3
+Author: Andy Sabrina Guerrier, Brain-CE Fellow, for Brain Climate & Equity Collaborative (Brain-CE)
+License: CC BY-NC-SA 4.0 (non-commercial use only)
 Repository: https://github.com/sguer/fsds-governance-architecture
 
 This code is open-source and freely available for educational and research purposes.
@@ -154,7 +154,7 @@ def create_fsds_governance_chart():
         text=(
             "Data Source: Government of Canada (2026). Draft 2026-2029 Federal Sustainable Development Strategy, Annexes 2 & 3. "
             "Flow thickness represents implementation strategy count.<br>"
-            "<i>Chart generated using open-source code (GNU AGPLv3 License)</i>"
+            "<i>Chart generated using open-source code (CC BY-NC-SA 4.0 - non-commercial use only)</i>"
         ),
         xref='paper', yref='paper',
         x=0.5, y=-0.15,
