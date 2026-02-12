@@ -290,7 +290,7 @@ if data:
         
         # Footer
         stats = data['statistics']
-        st.caption(f"Data Source: Government of Canada (2026). Displaying {org_count} Organizations linking to {stats['total_goals']} Goals.")
+        st.caption(f"Data Source: Environment and Climate Change Canada (ECCC) (2026). Displaying {org_count} Organizations linking to {stats['total_goals']} FSDS Goals.")
 
     with tab_data:
         st.header("Raw Data Explorer")
