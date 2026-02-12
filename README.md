@@ -201,14 +201,14 @@ fig.show()
 
 ```
 fsds-governance-architecture/
-├── README.md                          # This file
-├── LICENSE                            # GNU AGPLv3 License
-├── requirements.txt                   # Python dependencies
-├── app.py                             # Streamlit web application
-├── generate_chart.py                  # Static chart generator
-└── outputs/
-    ├── FSDS_Governance_Architecture.png                   # Static PNG
-    └── FSDS_Governance_Architecture_Interactive.html      # Interactive HTML
+├── README.md                           # Technical documentation and usage guide
+├── LICENSE                             # GNU AGPLv3 License
+├── requirements.txt                    # Python dependencies
+├── app.py                              # Streamlit web application
+├── generate_chart.py                   # Static chart generator
+├── assets/                             # Documentation assets (images)
+    ├── fig1_dsds_fsds_relationship.png # Official ECCC Figure 1
+    └── analytical_fsds_implementation_density.png # App snapshot (Figure 2)
 ```
 
 ## Dependencies
