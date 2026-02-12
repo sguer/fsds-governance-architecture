@@ -3,8 +3,8 @@
 ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)
 
 ![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg) 
-![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)
 
+[![Open Dashboard](https://img.shields.io/badge/Launch-Dashboard-blue?logo=streamlit)](https://fsds-governance-architecture-8uwblvgftqwmjjchrg66yu.streamlit.app/)
 
 ## License & Attribution
 
