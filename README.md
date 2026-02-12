@@ -1,19 +1,23 @@
 # FSDS Governance Architecture Dashboard 
 
-![License: AGPLv3](https://img.shields.io/badge/License-AGPLv3-brightgreen.svg) 
+![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)
+
 ![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg) 
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)
 
 
 ## License & Attribution
 
-**GNU AGPLv3** — © 2026 Andy Sabrina Guerrier, Brain-CE Fellow, for Brain Climate & Equity Collaborative (Brain-CE). See [LICENSE](LICENSE) file for details.
+**CC BY-NC-SA 4.0** — © 2026 Andy Sabrina Guerrier, Brain-CE Fellow, for Brain Climate & Equity Collaborative (Brain-CE).
 
-Designed as a non-commercial tool to map the distribution of implementation strategies across federal organizations, this resource supports collaborative engagement with the **[Draft 2026–2029 Federal Sustainable Development Strategy (FSDS)](https://www.canada.ca/en/environment-climate-change/corporate/transparency/consultations/share-your-throughts-draft-2026-2029-federal-sustainable-development-strategy.html)**  consultation process (open until May 12, 2026). 
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+**Non-commercial use only.** Adaptations must be shared under identical terms.
+
+**Purpose:** Designed as a non-commercial tool to map the distribution of implementation strategies across federal organizations, this resource supports collaborative engagement with the **[Draft 2026–2029 Federal Sustainable Development Strategy (FSDS)](https://www.canada.ca/en/environment-climate-change/corporate/transparency/consultations/share-your-throughts-draft-2026-2029-federal-sustainable-development-strategy.html)** consultation process (open until May 12, 2026).
 
 **_As an independent analytical visualization, this tool interpretive rather than authoritative and does not represent an official Government of Canada product._**
 
-In accordance with AGPLv3, all modifications must be shared openly.
 
 
 ## FSDS Consultation Focus
@@ -52,7 +56,7 @@ This project provides a static PNG graphic and Streamlit web app that visualizes
 
 - **Multiple Export Formats**: PNG (static), HTML (interactive), and web dashboard  
 
-- **Fully Open-Source**: GNU AGPLv3 licensed for collaborative use only
+- **Fully Open-Source**: CC BY-NC-SA 4.0 licensed for non-commercial collaborative use
 
 ---
 
@@ -202,7 +206,7 @@ fig.show()
 ```
 fsds-governance-architecture/
 ├── README.md                           # Technical documentation and usage guide
-├── LICENSE                             # GNU AGPLv3 License
+├── LICENSE                             # CC BY-NC-SA 4.0 licensed for non-commercial use
 ├── requirements.txt                    # Python dependencies
 ├── app.py                              # Streamlit web application
 ├── generate_chart.py                   # Static chart generator
@@ -432,11 +436,11 @@ If you use this visualization in academic work, please cite:
 
 ```
 @software{fsds_governance_2026,
-  author = {Andy Sabrina Guerrier for Brain Climate & Equity Collaborative},
+  author = {Guerrier, Andy Sabrina for Brain Climate \& Equity Collaborative},
   title = {FSDS Governance Architecture Dashboard},
   year = {2026},
   url = {https://github.com/sguer/fsds-governance-architecture},
-  license = {GNU AGPLv3}
+  license = {CC BY-NC-SA 4.0}
 }
 ```
 
