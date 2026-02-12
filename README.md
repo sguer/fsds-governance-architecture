@@ -54,7 +54,8 @@ This project provides a static PNG graphic and Streamlit web app that visualizes
 
 - **Fully Open-Source**: GNU AGPLv3 licensed for collaborative use only
 
-    
+---
+
 
 ## Quick Start
 
@@ -137,7 +138,9 @@ python generate_chart.py
 python -c "from generate_chart import create_fsds_governance_chart, save_as_png; fig = create_fsds_governance_chart(); save_as_png(fig, 'output.png')"
 ```
 
-### Programmatic Usage
+### Python Integration
+
+To incorporate these visualizations into your own Python scripts or Jupyter notebooks:
 
 ```python
 from generate_chart import create_fsds_governance_chart, save_as_png, save_as_html
@@ -154,6 +157,9 @@ save_as_html(fig, 'chart.html')
 # Display with Plotly
 fig.show()
 ```
+
+---
+
 
 ## Sample Data Hierarchy 
 *Simplified overview from the comprehensive JSON data file. Full dataset available in repository: [fsds-governance-architecture/fsds_data.json](https://github.com/sguer/fsds-governance-architecture/blob/main/fsds_data.json)
@@ -264,21 +270,54 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+---
+
+
 ## How to Read the Visualization
 
-### Left Column: Federal Organizations
-Seven federal departments and agencies responsible for implementing sustainable development strategies. Width indicates relative involvement.
+### Federal Governance Architecture
 
-### Middle Column: FSDS Goals
-Goals organized by chapter addressing governance (1), prosperity (2), and environment (3). Each goal maps to specific implementation strategies.
+**Figure 1** _Relationship between the DSDS and Key Components of the FSDS_
 
-### Right Column: Quality of Life Framework Domains
-Four outcome domains showing how FSDS goals contribute to broader societal wellbeing goals.
+![A horizontal flowchart illustrating the structural hierarchy of federal sustainability planning. Four circular nodes are connected by a broad directional arrow. The first three nodes are blue, representing the Federal Sustainable Development Strategy (FSDS): Goals (objectives reflecting government priorities), Targets (concrete objectives contributing to goals), and Implementation Strategies (the plan of action for specific targets). These connect to a final maroon node representing Departmental Sustainable Development Strategies (DSDS): Departmental Actions (concrete activities contributing to implementation strategies). Adapted from Draft 2026–2029 Federal Sustainable Development Strategy, p. 3.](assets/fig1_dsds_fsds_relationship.png)
+
+
+_Note._ This horizontal flowchart illustrates the structural hierarchy of federal sustainability planning. It maps the flow from FSDS Goals and Targets to specific Departmental Actions. Source: _Draft 2026–2029 Federal Sustainable Development Strategy_ (Environment and Climate Change Canada, 2026, p. 3).
+
+### **Sankey Mapping: FSDS Implementation Density**
+
+**Figure 2** _Analytical Mapping of FSDS Implementation Density across Federal Organizations_
+![A Sankey diagram showing the flow of implementation strategies from federal organizations on the left, through FSDS Goals in the center, to Quality of Life domains on the right. Flow thickness indicates the number of implementation strategies, revealing the operational density of the governance architecture.](assets/analytical_fsds_implementation_density.png)
+
+
+
+This dashboard **visually interprets** the governance hierarchy defined in **Figure 1** above. While Figure 1 establishes the **Goals, Targets, and Implementation Strategies** that define the federal government’s plan of action, this visualization maps the **volume and distribution** of those strategies across the federal ecosystem. This provides a transparent view of the scaling of sustainability **implementation** from individual departments to Quality of Life outcomes.
+
+
+### Column Definitions
+
+- **Left Column: Federal Organizations** — Federal departments and agencies responsible for identifying **Departmental Actions** that contribute to federal implementation. Width indicates relative involvement.
+    
+- **Middle Column: FSDS Goals** — Objectives reflecting the Government of Canada's priorities, organized by chapter: **Building an Inclusive and Resilient Society** (1), **Driving Clean Growth** (2), and **Protecting Our Environment and Well-Being** (3).
+    
+- **Right Column: Quality of Life Framework Domains** — Four outcome domains showing how specific **Implementation Strategies** contribute to broader societal wellbeing.
+
 
 ### Flow Lines
 - **Thickness**: Represents the number of implementation strategies connecting each organizational level
 - **Colour**: Transparency indicates flow intensity
 - **Direction**: Left to right, cascading from organization through goals to outcomes.
+
+  
+    
+### **Terminology & Data Units**
+
+- **Implementation Strategy (Data Unit)** — Each "flow" line represents a specific federal plan of action designed to support an FSDS Target.
+    
+- **Flow Thickness** — The width of the connecting lines is determined by the _total count_ of implementation strategies mapped between two points.
+    
+- **Nodes** — The vertical bars representing specific Organizations, Goals, or Domains.
+
 
 
 
@@ -363,6 +402,9 @@ fig = create_fsds_governance_chart()
 save_as_html(fig, 'chart.html')
 ```
 
+---
+
+
 ## Contributing
 
 Contributions welcome under AGPLv3 terms for non-commercial work:
@@ -398,33 +440,73 @@ If you use this visualization in academic work, please cite:
 }
 ```
 
+---
+
+
 ## Contact & Support
 
-- **Issues**: GitHub Issues page
-- **Discussions**: GitHub Discussions
-- **Email**: sguer102@uottawa.ca
+**Primary Organizational Contact**
+
+Brain Climate & Equity Collaborative (Brain-CE)
+
+Email: muse@brainclimate.org
+
+**Technical Lead & Corresponding Author**
+
+Andy Sabrina Guerrier | Brain-CE Fellow
+
+Email: sguer102@uottawa.ca
+
+
+---
+
+
+---
 
 ## Acknowledgments
 
-- Government of Canada for the FSDS data (Annexes 2 & 3)
-- Plotly for the visualization library
-- Streamlit for the web framework
-- All contributors and users
+- **The Brain Climate & Equity (Brain-CE) Collaborative**: For providing the **Four-Pillar Action Framework** that guided the development of this resource. This tool contributes specifically to the Collaborative’s mission of **evidence synthesis** and **health equity analysis**.
+    
+- **Environment and Climate Change Canada (ECCC)**: Primary source for the _Draft 2026–2029 Federal Sustainable Development Strategy_ (Annexes 2 & 3). Participation in the **Sustainability Directorate’s** webinar consultations was instrumental in inspiring the tool’s scope for mapping federal implementation data against the Strategy's high-level goals.
+    
+- **Technical Stack**: Developed as an **independent analytical resource** using [Plotly](https://plotly.com/python/) and [Streamlit](https://docs.streamlit.io/) to facilitate the **visualization of connections** between federal actions, sustainability mandates, and societal wellbeing outcomes.
+    
+
+---
 
 ## Related Resources
 
-- [Federal Sustainable Development Strategy (FSDS)](https://www.canada.ca/en/services/environment/sustainability/sustainable-development-strategy.html)
-- [Quality of Life Framework](https://www.statcan.gc.ca/eng/qol)
-- [UN Sustainable Development Goals](https://sdgs.un.org/)
-- [Plotly Documentation](https://plotly.com/python/)
-- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Federal Sustainable Development Strategy (FSDS)](https://www.canada.ca/en/environment-climate-change/services/climate-change/federal-sustainable-development-strategy.html)
+
+
+- [Brain Climate & Equity (Brain-CE) Collaborative](https://brainclimate.org) — Addressing the Intersection of Brain Health, Climate Justice, and Health Equity.
+
+- [Quality of Life Framework](https://www.canada.ca/en/government/system/government-wide-reporting-spending-operations/government-spending/quality-life-framework-canada.html)
+  
+
+---
+
 
 ## Version History
+
+### v1.1.0 (2026-02-12)
+
+- **Structural Alignment**: Added **Figure 1** (ECCC Architecture) and **Figure 2** (Analytical Sankey) to better link federal strategy to implementation data.
+    
+- **Asset Organization**: Moved documentation images into a dedicated `assets/` folder to separate them from script outputs.
+    
+- **Accessibility Progress**: Added initial ALT text for images and descriptive figure notes to improve screen-reader compatibility.
+    
+- **Technical Documentation**: Clarified the relationship between federal goals and departmental actions.
+  
 
 ### v1.0.0 (2026-02-11)
 - Initial release
 - Created Streamlit dashboard
 - Included static PNG generator
+
+---
+
 
 ## Future Roadmap
 
@@ -444,28 +526,18 @@ If you use this visualization in academic work, please cite:
     - *Foundation 3*: Links between race, socio-economic status, and environmental risk
     - *Foundation 4*: Indigenous environmental justice
       
-- [ ] **Multi-language support**: Toggle between English and French
-- [ ] **Advanced Filtering**: Search by specific target (e.g., "1.1.1") or keyword
-- [ ] **Export to PDF**: Generate presentation-ready artefacts 
-- [ ] Mobile-optimized responsive design
-- [ ] Dark mode improvements
-- [ ] API endpoint for programmatic access
+**Feature Backlog**
+- [ ] *Bilingual Interface*: Full French and English support.
 
+- [ ] *Granular Filtering*: Direct search by FSDS Target ID 
 
-## Contact & Support
+- [ ] *Export Engine*: Generate PDF artefacts and presentation-ready images.
 
-**Primary Organizational Contact**
-Brain Climate & Equity Collaborative (Brain-CE)
-Email: muse@brainclimate.org
+- [ ] *Performance & UI*: Responsive mobile design, dark mode refinements, and programmatic API access.
 
-**Technical Lead & Corresponding Author**
-Andy Sabrina Guerrier
-Brain-CE Fellow
-Email: sguer102@uottawa.ca
 
 
 ---
 
-**Made with care for collaborative knowledge translation.**
-
+Made with care for collaborative knowledge translation ❤️ 
 Last Updated: 2026-02-12
