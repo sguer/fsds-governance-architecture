@@ -1,10 +1,10 @@
 # FSDS Governance Architecture Dashboard 
 
-![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://fsds-governance-architecture-8uwblvgftqwmjjchrg66yu.streamlit.app/)
 
-![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg) 
+[![Python 3.14](https://img.shields.io/badge/Python-3.14.3-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 
-[![Open Dashboard](https://img.shields.io/badge/Launch-Dashboard-blue?logo=streamlit)](https://fsds-governance-architecture-8uwblvgftqwmjjchrg66yu.streamlit.app/)
+[![License](https://img.shields.io/badge/CC%20BY--NC--SA%204.0-FF6B35?style=for-the-badge&logo=creativecommons&logoColor=white)](LICENSE)
 
 ## License & Attribution
 
