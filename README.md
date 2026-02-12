@@ -46,9 +46,8 @@ The 2026–2029 FSDS consultation process focuses on engagement with the followi
 - Governments (provincial, territorial, and municipal)
 
 
-By mapping the distribution of federal implementation strategies, this logic-mapped visualization serves as an independent analytical resource for interpraetive support. **The collaborative tool is not administered by Environment and Climate Change Canada (ECCC).**
+By mapping the distribution of federal implementation strategies, this visualization serves as an independent analytical resource for interpretive support. **The collaborative tool is not administered by Environment and Climate Change Canada (ECCC).**
   
-
 ## Overview
 
 This project provides a static PNG graphic and Streamlit web app that visualizes how federal organizations implement sustainable development strategies through FSDS goals to achieve Quality of Life Framework outcomes.
