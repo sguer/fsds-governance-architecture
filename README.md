@@ -4,7 +4,7 @@
 ![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg) 
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)
 
-An open-source interactive visualization of the Draft **Federal Sustainable Development Strategy (FSDS)** governance architecture and framework alignment for the 2026-2029 period. **GNU AGPLv3 licensed** for non-commercial policy collaboration. 
+An open-source interactive visualization of the Draft **Federal Sustainable Development Strategy (FSDS)** governance architecture and framework alignment for the 2026-2029 period. **GNU AGPLv3 licensed** for non-commercial collaboration. 
 
 ## Overview 
 This project provides both a static PNG graphic and an interactive Streamlit web application that visualizes how federal organizations implement sustainable development strategies through FSDS goals to achieve Quality of Life Framework outcomes. 
@@ -248,7 +248,7 @@ Four outcome domains showing how FSDS goals contribute to broader societal wellb
 
 ## Customization
 
-### Modifying the Chart
+### Modifying the Sankey Diagram
 
 Edit `generate_chart.py` or `app.py` to:
 
@@ -269,7 +269,7 @@ connections = [
 ]
 ```
 
-3. **Update colors**:
+3. **Update colours**:
 ```python
 fed_org_colors = ['#color1', '#color2', ...]
 ```
@@ -339,9 +339,9 @@ Contributions welcome under AGPLv3 terms for non-commercial work:
 
 
 License
-GNU AGPLv3 - © 2026 [Your Name] for Brain Climate & Equity Collaborative. See [LICENSE](LICENSE) file for details.
+GNU AGPLv3 - © 2026 [Your Name] for Brain Climate & Equity Collaborative. See LICENSE file for details.
 
-Non-commercial tool: Modifications must be shared openly. Suited for FSDS-related evidence-to-policy collaboration.
+Non-commercial tool: Modifications must be shared openly. Suited for FSDS-related evidence-to-policy translation.
 
 
 ## Citation
@@ -384,7 +384,7 @@ If you use this visualization in academic work, please cite:
 ### v1.0.0 (2026-02-11)
 - Initial release
 - Created Streamlit dashboard
-- Added static PNG generator
+- Included static PNG generator
 
 ## Future Roadmap
 
@@ -404,7 +404,7 @@ If you use this visualization in academic work, please cite:
     - *Foundation 4*: Indigenous environmental justice
 - [ ] **Multi-language support**: Toggle between English and French
 - [ ] **Advanced Filtering**: Search by specific target (e.g., "1.1.1") or keyword
-- [ ] **Export to PDF**: Generate policy-ready briefs with full formatting
+- [ ] **Export to PDF**: Generate presentation-ready artefacts 
 - [ ] Mobile-optimized responsive design
 - [ ] Dark mode improvements
 - [ ] API endpoint for programmatic access
