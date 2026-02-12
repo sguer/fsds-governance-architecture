@@ -6,6 +6,11 @@
 
 [![License](https://img.shields.io/badge/CC%20BY--NC--SA%204.0-FF6B35?style=for-the-badge&logo=creativecommons&logoColor=white)](LICENSE)
 
+
+### 🌐 [Click here to access the Interactive Web Application](https://fsds-governance-architecture-8uwblvgftqwmjjchrg66yu.streamlit.app/)
+
+
+
 ## License & Attribution
 
 **CC BY-NC-SA 4.0** — © 2026 Andy Sabrina Guerrier, Brain-CE Fellow, for Brain Climate & Equity Collaborative (Brain-CE).
