@@ -19,7 +19,10 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 **Non-commercial use only.** Adaptations must be shared under identical terms.
 
-**Purpose:** Designed as a non-commercial tool to map the distribution of implementation strategies across federal organizations, this resource supports collaborative engagement with the **[Draft 2026–2029 Federal Sustainable Development Strategy (FSDS)](https://www.canada.ca/en/environment-climate-change/corporate/transparency/consultations/share-your-throughts-draft-2026-2029-federal-sustainable-development-strategy.html)** consultation process (open until May 12, 2026).
+
+## **Purpose**
+
+Designed as a non-commercial tool to map the distribution of implementation strategies across federal organizations, this resource supports collaborative engagement with the **[Draft 2026–2029 Federal Sustainable Development Strategy (FSDS)](https://www.canada.ca/en/environment-climate-change/corporate/transparency/consultations/share-your-throughts-draft-2026-2029-federal-sustainable-development-strategy.html)** consultation process (open until May 12, 2026).
 
 **_As an independent analytical visualization, this tool interpretive rather than authoritative and does not represent an official Government of Canada product._**
 
