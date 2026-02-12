@@ -1,6 +1,7 @@
 # Contributing to Mapping the FSDS Governance Architecture 
 
-**GNU AGPLv3** - Non-commercial policy tool by Andy Sabrina Guerrier for Brain Climate & Equity Collaborative. Thank you for your interest in contributing!
+**CC BY-NC-SA 4.0** - Independent, non-commercial analytical tool by Andy Sabrina Guerrier, Brain-CE Fellow, for Brain Climate & Equity Collaborative (Brain-CE).
+Thank you for your interest in contributing!
 
 
 ## Getting Started
@@ -205,7 +206,7 @@ This project is open and inclusive. Please be respectful and constructive in all
 
 ## License
 
-GNU AGPLv3 - Contributions automatically licensed under AGPLv3 for non-commercial use. See [LICENSE](LICENSE)
+**CC BY-NC-SA 4.0** - For non-commercial use and collaborative adaptations only. See [LICENSE](LICENSE)
 
 ## Recognition
 
