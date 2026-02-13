@@ -298,7 +298,7 @@ _Note._ This horizontal flowchart illustrates the structural hierarchy of federa
 ### **Sankey Mapping: FSDS Implementation Density**
 
 **Figure 2** _Analytical Mapping of FSDS Implementation Density across Federal Organizations_
-![A Sankey diagram showing the flow of implementation strategies from federal organizations on the left, through FSDS Goals in the center, to Quality of Life domains on the right. Flow thickness indicates the number of implementation strategies, revealing the operational density of the governance architecture.](assets/analytical_fsds_implementation_density.png)
+![A Sankey diagram showing the flow of implementation strategies from federal organizations on the left, through FSDS Goals in the center, to Quality of Life domains on the right. Flow thickness indicates the number of implementation strategies, revealing the operational density of the governance architecture.](assets/sankey_fsds_implementation_flows.png)
 
 
 
